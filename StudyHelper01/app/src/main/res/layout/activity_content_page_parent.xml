@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F7FF"
+        tools:context=".ContentPageParent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="42dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Ben"
+            android:textColor="#020101"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/cardViewBen"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="285dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Switch child profiles"
+            android:textColor="#020101"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewGwen"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="80dp"
+            app:cardBackgroundColor="#ABC4FF"
+            app:cardCornerRadius="250dp"
+            app:layout_constraintStart_toEndOf="@+id/textView13"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="250dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gwen" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewBen"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginBottom="35dp"
+            app:cardBackgroundColor="#8600B3"
+            app:cardCornerRadius="250dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="250dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ben" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="61dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Gwen"
+            android:textColor="#020101"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/cardViewGwen"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="208dp"
+            android:layout_height="69dp"
+            android:fontFamily="@font/nunito_extralight"
+            android:text="Plan your child's next day activity"
+            android:textAlignment="center"
+            android:textColor="#171010"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardViewBen" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:buttonTint="@color/purple_500"
+            android:checked="true"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Exercise"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="16dp"
+            android:buttonTint="@color/purple_500"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="English"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="92dp"
+            android:layout_marginTop="4dp"
+            android:buttonTint="@color/purple_500"
+            android:checked="true"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Mathematics"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:buttonTint="@color/purple_500"
+            android:checked="true"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Lesson"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:buttonTint="@color/purple_500"
+            android:checked="true"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Test"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="4dp"
+            android:buttonTint="@color/purple_500"
+            android:checked="true"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Test"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox7" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="164dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="4dp"
+            android:buttonTint="@color/purple_500"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Exercise"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox6" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="11dp"
+            android:buttonTint="@color/purple_500"
+            android:foregroundTint="@color/black"
+            android:shadowColor="@color/black"
+            android:text="Lesson"
+            android:textColor="#131111"
+            android:textColorHint="#1C1A1A"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toStartOf="@+id/textView22"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox5" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView2"
+            android:layout_width="419dp"
+            android:layout_height="65dp"
+            android:background="#8600B3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView30">
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="63dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/personwhite" />
+
+            <ImageView
+                android:id="@+id/progress"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="328dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="16dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/progresstreackicon" />
+
+            <ImageView
+                android:id="@+id/content"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="180dp"
+                android:layout_marginEnd="96dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/readblue" />
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="108dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="4dp"
+            android:backgroundTint="#9C27B0"
+            android:text="Plan"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox8" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="3dp"
+            android:layout_height="447dp"
+            android:layout_marginTop="360dp"
+            android:text="TextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

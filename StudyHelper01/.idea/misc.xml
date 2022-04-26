@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yoana/Desktop/git/StudyHelper01/app/src/main/res/layout/activity_congratulation.xml" value="0.264" />
+        <entry key="..\:/Users/Yoana/Desktop/git/StudyHelper01/app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="..\:/Users/Yoana/Desktop/git/StudyHelper01/app/src/main/res/layout/activity_math_exercise.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Yoana/Desktop/git/StudyHelper01/app/src/main/res/layout/activity_math_exercise01.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Yoana/Desktop/git/StudyHelper01/app/src/main/res/layout/activity_math_exercise_result.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Yoana/Desktop/git/StudyHelper01/app/src/main/res/layout/activity_math_test.xml" value="0.2" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/font/nunito_extralight.xml" value="0.284375" />
+=======
+<<<<<<< HEAD
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_achievement.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_congratulation.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_main.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise01.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise_result.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_result.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_result01.xml" value="0.2" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_test.xml" value="0.21666666666666667" />
+        <entry key="..\:/ye/Fontys/Smart Mobile/Android real/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_create_account.xml" value="0.33" />
+        <entry key="..\:/ye/Fontys/Smart Mobile/Android real/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_log_in.xml" value="0.264" />
+        <entry key="..\:/ye/Fontys/Smart Mobile/Android real/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/ye/Fontys/Smart Mobile/Android real/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise.xml" value="0.22146739130434784" />
+=======
+>>>>>>> dbf715057faeb7281457e7042182e0c6455145bc
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_achievement.xml" value="0.1" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_congratulation.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_create_account.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_lesson_kid_creature.xml" value="0.10377358490566038" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_log_in.xml" value="0.21666666666666667" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise.xml" value="0.1" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise01.xml" value="0.2" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_exercise_result.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_result.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_result01.xml" value="0.10185185185185185" />
+        <entry key="..\:/Users/Yoana/Desktop/git/duo-project-android/StudyHelper01/app/src/main/res/layout/activity_math_test.xml" value="0.2" />
+>>>>>>> 154268f8d66ad5e2191b434aa11a200cdb382c06
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

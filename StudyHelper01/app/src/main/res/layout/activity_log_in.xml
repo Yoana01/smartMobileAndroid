@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F8F7FF"
+    tools:context=".LogIn">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="336dp"
+        android:layout_height="79dp"
+        android:fontFamily="@font/nunito_extralight"
+        android:text="Study Helper"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <TextView
+        android:id="@+id/questionForLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Who is logging in?"
+        android:textColor="#3399FF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <Button
+        android:id="@+id/childButton"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#ABC4FF"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Ben"
+        android:textColor="#0B0A0A"
+        app:cornerRadius="75dp"
+        app:layout_constraintBottom_toTopOf="@+id/addNewParentButton"
+        app:layout_constraintEnd_toStartOf="@+id/childButton2"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parentBut"
+        app:layout_constraintVertical_bias="0.0"
+        app:strokeColor="#8600B3"
+        app:strokeWidth="15px"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/childButton2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#ABC4FF"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Gwen"
+        android:textAlignment="center"
+        android:textColor="#0B0A0A"
+        app:cornerRadius="75dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parentBut"
+        app:strokeColor="#8600B3"
+        app:strokeWidth="15px"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/parentBut"
+        android:layout_width="129dp"
+        android:layout_height="128dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#8600B3"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="Alex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        app:strokeColor="#ABC4FF"
+        app:strokeWidth="15px"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/addNewChildButton"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#ABC4FF"
+        android:text="Add new Child profile"
+        android:textColor="#131313"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toEndOf="@+id/addNewParentButton" />
+
+    <Button
+        android:id="@+id/addNewParentButton"
+        android:layout_width="162dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#8600B3"
+        android:text="Add new Parent profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/deleteAccout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:textColor="#3399FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/parentBut"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <TextView
+        android:id="@+id/buttonDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Parent"
+        android:textColor="#FDFCFC"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/parentBut"
+        app:layout_constraintEnd_toEndOf="@+id/parentBut"
+        app:layout_constraintStart_toStartOf="@+id/parentBut"
+        app:layout_constraintTop_toTopOf="@+id/parentBut"
+        app:layout_constraintVertical_bias="0.594" />
+
+    <TextView
+        android:id="@+id/buttonDescription2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Child"
+        android:textColor="#0B0A0A"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/childButton"
+        app:layout_constraintEnd_toEndOf="@+id/childButton"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/childButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <TextView
+        android:id="@+id/buttonDescription3"
+        android:layout_width="51dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="8dp"
+        android:text="Child"
+        android:textColor="#0B0A0A"
+        android:translationZ="5dp"
+        app:layout_constraintBottom_toBottomOf="@+id/childButton2"
+        app:layout_constraintEnd_toEndOf="@+id/childButton2"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="@+id/childButton2"
+        app:layout_constraintTop_toTopOf="@+id/childButton2"
+        app:layout_constraintVertical_bias="0.806" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

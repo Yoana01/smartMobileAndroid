@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411926024612",
+    "project_id": "study-helper-01",
+    "storage_bucket": "study-helper-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411926024612:android:0d490bd9c0dc51db59f131",
+        "android_client_info": {
+          "package_name": "com.example.studyhelper01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411926024612-glrc1181fbtq9tdoinem34kkvhpd3k4o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLLAsgN33nf5yRxHwMI_1cg5lIsxu1h0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411926024612-glrc1181fbtq9tdoinem34kkvhpd3k4o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
